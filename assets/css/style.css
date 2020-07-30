@@ -60,16 +60,18 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 70px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: #245168;
+opacity: .2px;  
 }
 
 #header.header-transparent {
-  background: none;
+  background: #1e4356;
+  
 }
 
 #header.header-scrolled {
@@ -327,10 +329,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: absolute;
   left: 50%;
   top: 0;
-  width: 130%;
+  width: 190%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("https://www.icam.hk/wp-content/uploads/2019/08/iStock-929540760-1024x732.jpg") center  no-repeat ;
   z-index: 0;
+  background-size: cover;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
 }
